@@ -109,10 +109,12 @@ If you think something will benefit 18F and is worth the time, then that's valua
 
 #### Exceptions
 
-Password, protected configurations (such as IP addresses), authentication tokens and service keys should always be kept in a secrets store outside of a public repository.
-
 18F currently has **no projects** for which we will not ever release the source code.
 
 18F has one project where source code will be released at a later time:
 
 * [US Citizenship & Immigration Services](http://www.uscis.gov/) - Project agreement pre-dated the creation of 18F's open source policy. 18F will work with USCIS to coordinate publication of source code as components are publicly released. Components based on existing open source projects will remain open throughout development.
+
+#### Sensitive Information
+
+Password, protected configurations (such as IP addresses), authentication tokens and service keys should always be kept in a secrets store outside of a public repository.
